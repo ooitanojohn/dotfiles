@@ -1,0 +1,52 @@
+[user]
+	email = qmkh733310@gmail.com
+	name = ooitanojohn
+[credential]
+	helper = wincred
+
+[alias]
+	cm=commit
+	st=status
+	br=branch
+	co=checkout
+	rm=remote
+	og=origin
+  mg=merge
+  cf=config
+
+  flfest=flow feature start
+	flfefi=flow feature finish
+	flrest=flow release start
+	flrefi=flow release finish
+	flhost=flow hotfix start
+	flhofi=flow hotfix finish
+
+[core]
+	pager = delta
+	autocrlf = false
+	ignorecase = false
+	editor = vim
+	quotepath = false
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	line-numbers = true
+	side-by-side = true
+[merge]
+	conflictstyle = diff3
+[diff]
+  colorMoved = default
+
+[pull]
+	ff = only
+	rebase = false
+[init]
+	defaultBranch = master
+[color]
+	ui = true
+	status = true
+	branch = true
+	diff = true
+  interactive = true
+
