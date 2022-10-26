@@ -11,9 +11,12 @@
 	co=checkout
 	rm=remote
 	og=origin
-  mg=merge
-  cf=config
-
+  	mg=merge
+  	cf=config
+	sw=switch
+        sta=stash
+        re=restore
+	
   flfest=flow feature start
 	flfefi=flow feature finish
 	flrest=flow release start
