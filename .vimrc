@@ -107,3 +107,5 @@ set autoread
 " needtree 🗄更新があった際にctrl + rで読み取る
 nmap <C-r> :NERDTreeRefreshRoot<CR>
  
+" esc inore
+inoremap <silent> jj <esc>
