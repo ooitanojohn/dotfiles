@@ -9,10 +9,11 @@
 	st=status
 	br=branch
 	co=checkout
-	rm=remote
-	og=origin
-  mg=merge
-  cf=config
+	sw=switch
+	ph=push
+  	mg=merge
+  	cf=config
+	
 
   flfest=flow feature start
 	flfefi=flow feature finish
@@ -42,7 +43,7 @@
 	ff = only
 	rebase = false
 [init]
-	defaultBranch = master
+	defaultBranch = main
 [color]
 	ui = true
 	status = true
